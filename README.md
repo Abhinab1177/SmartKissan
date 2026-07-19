@@ -1,25 +1,30 @@
-# 🌱 SmartKissan
+# SmartKissan
 
-AI-Based Crop Disease Detection & Smart Farming Advisory System.
+SmartKissan is a smart farming project aimed at helping farmers detect crop diseases early and manage their fields better using AI and IoT.
 
-SmartKissan is an AI-powered farming solution designed to help farmers detect crop diseases, monitor irrigation, and make informed farming decisions using Artificial Intelligence and IoT technologies.
+The idea is to give farmers a simple way to check for crop diseases, get irrigation support, and keep track of weather updates — all from one easy-to-use web interface.
 
-> More features, documentation, and project resources will be added in future updates.
-
----
-
-## 🚀 Features
-
-- 🌿 AI-based Crop Disease Detection
-- 💧 Smart Irrigation Monitoring
-- 🌦️ Weather-Based Farming Advisory
-- 🤖 AI-Powered Decision Support
-- 📱 Simple & Farmer-Friendly Interface
+> Note: This project is still under development. More features and proper documentation will be added as things progress.
 
 ---
 
-## 🎥 Project Demo
+## Demo
 
-Watch the SmartKissan project demonstration here:
-
+Here's a quick demo of SmartKissan:
 https://youtu.be/9aPb_PyAJcw
+
+---
+
+## Features
+
+- Crop disease detection
+- Smart irrigation support
+- Weather information
+- Simple dashboard
+- Easy-to-use interface
+
+---
+
+## Status
+
+Still a work in progress — building this out feature by feature. Will keep updating the README as more parts get completed.
