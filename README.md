@@ -1,30 +1,49 @@
 # SmartKissan
 
-SmartKissan is a smart farming project aimed at helping farmers detect crop diseases early and manage their fields better using AI and IoT.
+SmartKissan is a smart farming project developed to help farmers detect crop diseases and improve irrigation using AI, Machine Learning, and IoT.
 
-The idea is to give farmers a simple way to check for crop diseases, get irrigation support, and keep track of weather updates — all from one easy-to-use web interface.
-
-> Note: This project is still under development. More features and proper documentation will be added as things progress.
-
----
-
-## Demo
-
-Here's a quick demo of SmartKissan:
-https://youtu.be/9aPb_PyAJcw
-
----
+The project has two main parts:
+- A hardware prototype built using Raspberry Pi for smart irrigation.
+- A software application that detects crop diseases and provides farming recommendations through a simple web interface.
 
 ## Features
 
-- Crop disease detection
-- Smart irrigation support
-- Weather information
-- Simple dashboard
-- Easy-to-use interface
+- Crop disease detection using deep learning
+- Smart irrigation control
+- Weather-based farming support
+- Web dashboard for monitoring
+- Raspberry Pi-based hardware prototype
 
----
+## Technologies Used
 
-## Status
+- HTML
+- CSS
+- JavaScript
+- Python
+- Flask
+- TensorFlow
+- Raspberry Pi
+- OpenWeather API
 
-Still a work in progress — building this out feature by feature. Will keep updating the README as more parts get completed.
+## Project Structure
+
+```text
+SmartKissan/
+├── docs/
+├── hardware/
+├── software/
+├── media/
+└── certificates/
+```
+
+## Presentations
+
+This repository includes both the hardware and software presentations of the SmartKissan project.
+
+## Demo
+
+The project demonstration video will be added here.
+
+## Note
+
+The project is still being organized. More project files, documentation, images, and demonstration videos will be added gradually.
