@@ -1,0 +1,92 @@
+/* =======================
+   RESET
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =======================
+   BASE LAYOUT
+======================= */
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  overflow: hidden;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* =======================
+   VIDEO WRAPPER
+======================= */
+.video-wrapper {
+  position: fixed;
+  inset: 0;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =======================
+   VIDEO (SHARPNESS-FIRST)
+======================= */
+/*
+  IMPORTANT:
+  - We DO NOT stretch the video to full screen
+  - We keep it near native resolution
+  - This avoids blur on 1024x1024 videos
+*/
+video {
+  width: auto;
+  height: auto;
+
+  /* limit scaling to avoid blur */
+  max-width: 90vmin;
+  max-height: 90vmin;
+
+  object-fit: contain;
+  background: transparent;
+
+  /* rendering hints (best effort) */
+  image-rendering: auto;
+  -webkit-transform: translateZ(0);
+  will-change: transform;
+}
+
+/* =======================
+   LOADING TEXT
+======================= */
+.loading-text {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #2E7D32; /* agriculture green */
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  animation: fadeText 1.5s ease-in-out infinite;
+  user-select: none;
+}
+
+/* animated dot */
+.loading-text span {
+  display: inline-block;
+  animation: blink 1.2s infinite;
+}
+
+/* =======================
+   ANIMATIONS
+======================= */
+@keyframes fadeText {
+  0%   { opacity: 0.4; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50%      { opacity: 1; }
+}
