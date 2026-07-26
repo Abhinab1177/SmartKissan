@@ -1,26 +1,27 @@
 # SmartKissan
 
-SmartKissan is a smart farming project developed to help farmers detect crop diseases and improve irrigation using AI, Machine Learning, and IoT.
+SmartKissan is a smart farming project that combines AI, Machine Learning, and IoT to assist farmers in crop disease detection and irrigation management.
 
-The project has two main parts:
+The project consists of two major parts:
+
 - A hardware prototype built using Raspberry Pi for smart irrigation.
-- A software application that detects crop diseases and provides farming recommendations through a simple web interface.
+- A software application that detects crop diseases and provides farming recommendations through a web dashboard.
 
 ## Features
 
-- Crop disease detection using deep learning
-- Smart irrigation control
-- Weather-based farming support
-- Web dashboard for monitoring
-- Raspberry Pi-based hardware prototype
+- AI-based crop disease detection
+- Smart irrigation using Raspberry Pi
+- Weather-based farming assistance
+- Web dashboard for monitoring and control
+- Deep learning models for plant disease classification
 
 ## Technologies Used
 
+- Python
+- Flask
 - HTML
 - CSS
 - JavaScript
-- Python
-- Flask
 - TensorFlow
 - Raspberry Pi
 - OpenWeather API
@@ -29,21 +30,43 @@ The project has two main parts:
 
 ```text
 SmartKissan/
+├── certificates/
 ├── docs/
 ├── hardware/
-├── software/
+│   ├── images/
+│   └── README.md
 ├── media/
-└── certificates/
+├── software/
+│   ├── frontend/
+│   └── ml-model/
+└── README.md
 ```
 
-## Presentations
+## Hardware
 
-This repository includes both the hardware and software presentations of the SmartKissan project.
+The hardware prototype includes:
+
+- Raspberry Pi 4
+- Raspberry Pi Camera
+- 4-Channel Relay Module
+- 5V DC Water Pump
+- Power Supply
+- Connecting Wires
+
+More details are available in the `hardware` folder.
+
+## Documentation
+
+The `docs` folder contains the hardware and software presentations prepared for the project.
+
+## Project Images
+
+Hardware images and prototype photos are available in the `hardware/images` folder.
 
 ## Demo
 
-The project demonstration video will be added here.
+Project demonstration videos will be added to the `media` folder.
 
-## Note
+## Project Status
 
-The project is still being organized. More project files, documentation, images, and demonstration videos will be added gradually.
+This project is still under development. Additional documentation, software modules, demonstration videos, and project resources will be added over time.
