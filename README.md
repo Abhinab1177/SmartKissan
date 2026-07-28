@@ -59,6 +59,13 @@ More details are available in the `hardware` folder.
 
 The `docs` folder contains the hardware and software presentations prepared for the project.
 
+## Certificates
+
+Project-related certificates are available in the `certificates` folder.
+
+- SOA Ideathon Certificate
+- TRITHON 2026 Certificate
+
 ## Project Images
 
 Hardware images and prototype photos are available in the `hardware/images` folder.
