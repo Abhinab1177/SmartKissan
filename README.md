@@ -42,6 +42,10 @@ SmartKissan/
 └── README.md
 ```
 
+## Software
+
+The software implementation is available in the `software` folder. It includes the web dashboard, frontend components, and machine learning modules used in the project.
+
 ## Hardware
 
 The hardware prototype includes:
