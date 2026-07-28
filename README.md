@@ -65,7 +65,9 @@ Hardware images and prototype photos are available in the `hardware/images` fold
 
 ## Demo
 
-Project demonstration videos will be added to the `media` folder.
+A short demonstration of the SmartKissan prototype is available below.
+
+https://github.com/user-attachments/your-video-link
 
 ## Project Status
 
