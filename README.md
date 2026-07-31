@@ -46,6 +46,7 @@ The project combines Artificial Intelligence, Machine Learning, Computer Vision,
 
 ### AI / Machine Learning
 - TensorFlow Lite
+- OpenCV
 - Computer Vision
 
 ### Hardware
@@ -107,9 +108,29 @@ An AI-powered chatbot that assists farmers by answering agriculture-related ques
 ## 📸 Project Media
 
 - Hardware prototype images are available in **hardware/images/**
-- Software screenshots are available in **software/screenshots/**
+- Software screenshots showcasing the dashboard and features are available in **software/screenshots/**.
 - Project demonstration videos are available in the **media/** folder.
 - Hardware and software presentations are available in the **docs/** folder.
+
+---
+
+## 🖼️ Project Screenshots
+
+| Dashboard | Disease Detection |
+|------------|-------------------|
+| ![](software/screenshots/dashboard.png) | ![](software/screenshots/disease-detection.png) |
+
+| Disease Result | Analytics |
+|----------------|-----------|
+| ![](software/screenshots/disease-result.png) | ![](software/screenshots/analytics-dashboard.png) |
+
+| Weather | Dukan |
+|---------|--------|
+| ![](software/screenshots/weather-dashboard.png) | ![](software/screenshots/dukan-marketplace.png) |
+
+| Reports | AI Chatbot |
+|---------|------------|
+| ![](software/screenshots/scan-reports-history.png) | ![](software/screenshots/kissan-sahayak-chatbot.png) |
 
 ---
 
@@ -132,10 +153,27 @@ This repository includes project certificates from various events and competitio
 - Cloud Database Integration
 - GPS-Based Farm Monitoring
 - Mobile Application
+- Farmer Mobile Application (Android)
 
 ---
 
-## 👨‍💻 Developer
+## 👥 Project Team
+
+This project was developed as a collaborative team effort.
+
+| Role | Name |
+|------|------|
+| 👨‍💼 Team Leader | **Abhinab Kumar Das** |
+| 👨‍💻 Team Member | A.P. Ayush Roul |
+| 👨‍💻 Team Member | Sourav Chakrabarty |
+| 👨‍💻 Team Member | Yogesh Mohanty |
+| 👨‍💻 Team Member | Subhra Bishal Das |
+| 👩‍💻 Team Member | Divya Sahu |
+| 🎓 Mentor | Dr. Bata Krishna Tripathy |
+
+---
+
+### Team Leader
 
 **Abhinab Kumar Das**
 
@@ -148,7 +186,5 @@ Institute of Technical Education and Research (ITER), SOA University
 - Computer Vision
 - Internet of Things (IoT)
 - Python Development
-
----
 
 ⭐ If you found this project helpful, consider giving the repository a star.
