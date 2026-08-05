@@ -1,14 +1,21 @@
-# 🌱 SmartKissan
-
+<p align="center">
+  <img src="assets/banner.svg" alt="SmartKissan Banner" width="100%">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/github/license/Abhinab1177/SmartKissan?style=for-the-badge&color=2E7D32" alt="License">
+  <img src="https://img.shields.io/github/last-commit/Abhinab1177/SmartKissan?style=for-the-badge&color=1976D2" alt="Last Commit">
+  <img src="https://img.shields.io/github/repo-size/Abhinab1177/SmartKissan?style=for-the-badge&color=F57C00" alt="Repo Size">
+  <img src="https://img.shields.io/github/languages/top/Abhinab1177/SmartKissan?style=for-the-badge&color=FBC02D" alt="Top Language">
+</p>
 <div align="center">
+
+# 🌱 SmartKissan
 
 ### AI-Powered Smart Farming & Crop Disease Detection Platform
 
-Helping farmers make smarter decisions using Artificial Intelligence, Computer Vision, IoT, and real-time weather insights.
+Helping farmers make smarter decisions using Artificial Intelligence, Computer Vision, IoT, and Real-Time Weather Intelligence.
 
 </div>
-
----
 
 ## 📖 About
 

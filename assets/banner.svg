@@ -1,0 +1,158 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>SmartKissan banner</title>
+<desc>Animated banner: logo and headline fade in, an underline draws itself, then four feature cards for disease detection, weather, irrigation and analytics slide up one after another and gently float</desc>
+
+<defs>
+  <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#052e18"/>
+    <stop offset="100%" stop-color="#0a4023"/>
+  </linearGradient>
+  <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#4ade80"/>
+    <stop offset="100%" stop-color="#15803d"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#22c55e" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#22c55e" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="rounded"><rect x="0" y="0" width="1200" height="300" rx="16"/></clipPath>
+</defs>
+
+<g clip-path="url(#rounded)">
+<rect x="0" y="0" width="1200" height="300" fill="url(#bgGrad)"/>
+
+<circle cx="1140" cy="20" r="130" fill="#166534" opacity="0.28"/>
+<circle cx="10" cy="300" r="100" fill="#166534" opacity="0.22"/>
+
+<!-- floating ambient particles -->
+<g fill="#86efac">
+  <circle r="2.5" opacity="0.7">
+    <animateMotion path="M120,260 C 170,180 240,140 300,95" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.7;0" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2" opacity="0.6">
+    <animateMotion path="M950,280 C 1010,200 1070,160 1140,110" dur="8s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="8s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="2.2" opacity="0.65">
+    <animateMotion path="M600,30 C 650,60 690,100 720,150" dur="6.5s" begin="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.65;0" dur="6.5s" begin="2.5s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- glow pulse behind logo -->
+<circle cx="70" cy="20" r="70" fill="url(#glow)">
+  <animate attributeName="r" values="60;80;60" dur="3.5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- logo: fades and scales in -->
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.5s" fill="freeze"/>
+  <g transform="translate(58,44)">
+    <animateTransform attributeName="transform" type="rotate" values="-3 16 -6;3 16 -6;-3 16 -6" dur="4s" begin="0.6s" repeatCount="indefinite" additive="sum"/>
+    <path d="M0 34 C -26 8, -18 -34, 16 -46 C 38 -18, 26 20, 0 34 Z" fill="url(#leafGrad)"/>
+    <path d="M0 34 C 16 4, 12 -28, 16 -46" stroke="#052e16" stroke-width="1.6" fill="none"/>
+  </g>
+  <text x="86" y="52" font-family="Verdana, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Smart<tspan fill="#4ade80">Kissan</tspan></text>
+</g>
+
+<!-- headline: slides up and fades in -->
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.35s" dur="0.6s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0,16" to="0,0" begin="0.35s" dur="0.6s" fill="freeze"/>
+  <text x="60" y="105" font-family="Verdana, Arial, sans-serif" font-size="33" font-weight="700" fill="#ffffff">Farming, made intelligent</text>
+</g>
+
+<!-- subheadline -->
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="0.6s" dur="0.6s" fill="freeze"/>
+  <animateTransform attributeName="transform" type="translate" from="0,16" to="0,0" begin="0.6s" dur="0.6s" fill="freeze"/>
+  <text x="60" y="132" font-family="Verdana, Arial, sans-serif" font-size="15.5" font-weight="400" fill="#bbf7d0">AI + IoT platform that detects crop disease, reads the weather and waters the field for you.</text>
+</g>
+
+<!-- drawing underline -->
+<rect x="60" y="145" width="0" height="3" rx="1.5" fill="#4ade80">
+  <animate attributeName="width" from="0" to="330" begin="1.0s" dur="0.7s" fill="freeze"/>
+</rect>
+
+<!-- feature strip: 4 cards, staggered slide-up entrance then gentle float -->
+<g font-family="Verdana, Arial, sans-serif">
+
+  <!-- card 1: disease detection -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="60,205" to="60,175" begin="1.1s" dur="0.5s" fill="freeze" id="c1"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="3.2s" begin="c1.end" repeatCount="indefinite" additive="sum"/>
+    <rect x="0" y="0" width="255" height="95" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#22c55e" stroke-opacity="0.4"/>
+    <g transform="translate(26,28)">
+      <path d="M0 20 C -14 12, -16 -8, 0 -20 C 14 -8, 12 12, 0 20 Z" fill="#4ade80"/>
+      <circle cx="10" cy="8" r="9" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <line x1="16" y1="14" x2="23" y2="21" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+    <text x="66" y="35" font-size="15" font-weight="700" fill="#ffffff">Disease detection</text>
+    <text x="66" y="55" font-size="12" font-weight="400" fill="#bbf7d0">Scan a leaf, get an</text>
+    <text x="66" y="70" font-size="12" font-weight="400" fill="#bbf7d0">instant AI diagnosis</text>
+  </g>
+
+  <!-- card 2: weather -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="330,205" to="330,175" begin="1.3s" dur="0.5s" fill="freeze" id="c2"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="3.2s" begin="c2.end" repeatCount="indefinite" additive="sum"/>
+    <rect x="0" y="0" width="255" height="95" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#22c55e" stroke-opacity="0.4"/>
+    <g transform="translate(26,28)">
+      <circle cx="-4" cy="-2" r="8" fill="#fde68a">
+        <animate attributeName="opacity" values="1;0.6;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <path d="M-2 6 a11 11 0 1 0 20 0 a9 9 0 0 0 -8 -9 a10 10 0 0 0 -12 9 Z" fill="#e5e7eb"/>
+    </g>
+    <text x="66" y="35" font-size="15" font-weight="700" fill="#ffffff">Weather insights</text>
+    <text x="66" y="55" font-size="12" font-weight="400" fill="#bbf7d0">Live conditions and</text>
+    <text x="66" y="70" font-size="12" font-weight="400" fill="#bbf7d0">smart farming alerts</text>
+  </g>
+
+  <!-- card 3: irrigation -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="600,205" to="600,175" begin="1.5s" dur="0.5s" fill="freeze" id="c3"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="3.2s" begin="c3.end" repeatCount="indefinite" additive="sum"/>
+    <rect x="0" y="0" width="255" height="95" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#22c55e" stroke-opacity="0.4"/>
+    <g transform="translate(26,28)">
+      <path d="M0 -18 C 10 -4, 14 8, 0 20 C -14 8, -10 -4, 0 -18 Z" fill="#38bdf8">
+        <animateTransform attributeName="transform" type="scale" values="1;1.12;1" dur="2s" repeatCount="indefinite" additive="sum"/>
+      </path>
+    </g>
+    <text x="66" y="35" font-size="15" font-weight="700" fill="#ffffff">Smart irrigation</text>
+    <text x="66" y="55" font-size="12" font-weight="400" fill="#bbf7d0">IoT-controlled watering,</text>
+    <text x="66" y="70" font-size="12" font-weight="400" fill="#bbf7d0">zero manual effort</text>
+  </g>
+
+  <!-- card 4: analytics -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.7s" dur="0.5s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="870,205" to="870,175" begin="1.7s" dur="0.5s" fill="freeze" id="c4"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-5;0,0" dur="3.2s" begin="c4.end" repeatCount="indefinite" additive="sum"/>
+    <rect x="0" y="0" width="255" height="95" rx="12" fill="#ffffff" fill-opacity="0.06" stroke="#22c55e" stroke-opacity="0.4"/>
+    <g transform="translate(18,20)">
+      <rect x="0" y="24" width="7" height="6" fill="#4ade80">
+        <animate attributeName="height" from="0" to="6" begin="1.9s" dur="0.4s" fill="freeze"/>
+        <animate attributeName="y" from="30" to="24" begin="1.9s" dur="0.4s" fill="freeze"/>
+      </rect>
+      <rect x="11" y="16" width="7" height="14" fill="#22c55e">
+        <animate attributeName="height" from="0" to="14" begin="2.0s" dur="0.4s" fill="freeze"/>
+        <animate attributeName="y" from="30" to="16" begin="2.0s" dur="0.4s" fill="freeze"/>
+      </rect>
+      <rect x="22" y="6" width="7" height="24" fill="#16a34a">
+        <animate attributeName="height" from="0" to="24" begin="2.1s" dur="0.4s" fill="freeze"/>
+        <animate attributeName="y" from="30" to="6" begin="2.1s" dur="0.4s" fill="freeze"/>
+      </rect>
+    </g>
+    <text x="66" y="35" font-size="15" font-weight="700" fill="#ffffff">Farm analytics</text>
+    <text x="66" y="55" font-size="12" font-weight="400" fill="#bbf7d0">Crop health and scan</text>
+    <text x="66" y="70" font-size="12" font-weight="400" fill="#bbf7d0">history at a glance</text>
+  </g>
+
+</g>
+
+</g>
+</svg>
