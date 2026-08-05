@@ -143,6 +143,14 @@ This repository includes project certificates from various events and competitio
 
 ---
 
+## 📚 Documentation
+
+Additional documentation is available in the `docs` folder.
+
+- Hardware Presentation
+- Software Presentation
+- Installation Guide
+
 ## 🚀 Future Enhancements
 
 - Live IoT Sensor Integration

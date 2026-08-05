@@ -1,0 +1,9 @@
+Flask
+tensorflow
+opencv-python
+numpy
+Pillow
+requests
+RPi.GPIO
+gpiozero
+picamera2
