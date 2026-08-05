@@ -1,0 +1,36 @@
+# SmartKissan Software Screenshots
+
+This folder contains screenshots of the SmartKissan web application.
+
+## Dashboard
+Displays weather information, farm health, smart alerts, recent activities, and quick access to project modules.
+
+## Disease Detection
+Allows farmers to upload a crop leaf image for AI-based disease detection.
+
+## Disease Result
+Shows the predicted disease, confidence score, recommended pesticide, dosage, and treatment guidance.
+
+## Analytics Dashboard
+Provides insights into disease statistics, scan history, farm health, and overall analytics.
+
+## Weather Dashboard
+Displays live weather conditions and recommendations based on environmental data.
+
+## Live Weather Widget
+A compact weather card showing temperature, humidity, and weather conditions.
+
+## Dukan Marketplace
+Helps farmers locate nearby seed stores, fertilizer shops, pesticide shops, and nurseries.
+
+## Scan Reports
+Maintains the history of crop disease scans and generated reports.
+
+## Notification Preferences
+Allows users to customize weather alerts and farming notifications.
+
+## Help Center
+Provides project guidance and support information.
+
+## Kissan Sahayak AI
+An AI-powered chatbot that answers farming-related questions and provides agricultural guidance.
